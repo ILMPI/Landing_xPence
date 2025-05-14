@@ -1,0 +1,37 @@
+
+.clients{
+	height: 188px;
+	background-color: var(--color-white);
+}
+
+.clients-list{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 20px 0 10px;
+
+
+	width: 100%;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width: 767px){
+	.clients-list{
+		flex-wrap: wrap;
+		row-gap: 30px;
+		margin-right: calc(-1 * 30px);
+		justify-content: center;
+	}
+
+	.image_container{
+		display: flex;
+		justify-content: center;
+		padding-right: 30px;
+    	width: calc(100% / 2);
+	}
+
+
+}

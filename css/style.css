@@ -1,0 +1,33 @@
+@import url(../css/base.css);
+
+/*columns for THe Product we work with section*/
+.content__col.content__col--wide {
+  width: clamp(280px, 80vw, 730px);
+  flex-shrink: 0;
+}
+
+.content__col.content__col--flex {
+  flex-grow: 1;
+}
+
+/*80px gap between two blocks*/
+
+.container.container--wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/*shared titles styles for sections plan and categories*/
+.title_medium {
+  font-size: clamp(32px, 8vw, 72px);
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-text-main);
+  margin-bottom: clamp(32px, 10vw, 84px);
+}
+
+img[data-aos] {
+  display: block;
+  width: 100%;
+}

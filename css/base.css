@@ -1,0 +1,52 @@
+/* helpers */
+@import url(./helpers/reset.css);
+@import url(./helpers/buttons.css);
+@import url(./helpers/variables.css);
+
+/* blocks */
+
+@import url(./blocks/header.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/hero_sections.css);
+@import url(./blocks/overview.css);
+@import url(./blocks/brands.css);
+@import url(./blocks/cards.css);
+@import url(./blocks/categories.css);
+@import url(./blocks/plans.css);
+@import url(./blocks/form.css);
+@import url(./blocks/popups.css);
+
+html,
+body {
+  height: 100%;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 24px;
+  color: var(--color-text-main);
+}
+
+.wrapper {
+  padding-top: var(--wrapper-offset);
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1150px;
+}
